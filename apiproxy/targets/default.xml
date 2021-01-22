@@ -16,10 +16,9 @@
     </PostFlow>
     <Flows/>
     <HTTPTargetConnection>
-        <Properties/>
         <LoadBalancer>
             <Server name="cicd-target-server"/>
         </LoadBalancer>
-        <Path>/db/users</Path>
+        <Path>/json</Path>
     </HTTPTargetConnection>
 </TargetEndpoint>
